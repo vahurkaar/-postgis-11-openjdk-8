@@ -30,3 +30,5 @@ RUN ["chmod", "+x", "/run-java.sh"]
 ENTRYPOINT ["/entrypoint.sh"]
 
 CMD ["postgres"]
+
+EXPOSE 5432
