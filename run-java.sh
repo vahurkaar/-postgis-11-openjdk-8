@@ -8,6 +8,9 @@ do
   sleep 1;
 done
 
+java -version
+
 if [[ -e ./app.jar ]]; then
+  echo "Starting Java Application..."
   java -jar ./app.jar $JAVA_OPTS
 fi
